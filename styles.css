@@ -109,7 +109,6 @@ body {
     transition: var(--transition-notDrawer);
     background-color: var(--nav-bg-1);
     padding: 1.5rem 3rem;
-    position: sticky;
     top: 0;
 }
 
@@ -221,7 +220,7 @@ img {
     grid-template-areas: 
     "projects announcements"
     "projects trending";
-    overflow: auto;
+    overflow: visible;
     height: 100%;
 }
 
